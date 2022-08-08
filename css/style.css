@@ -1,0 +1,36 @@
+.box {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: yellowgreen;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}
+
+.blue {
+    background-color: lightblue;
+}
+
+.blue:hover {
+    width: 300px;
+}
+
+.yellow {
+    background-color: yellowgreen;
+}
+
+.yellow:hover {
+    height: 300px;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.orange:hover {
+    width: 300px;
+    height: 300px;
+}
